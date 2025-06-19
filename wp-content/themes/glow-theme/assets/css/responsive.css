@@ -1,0 +1,222 @@
+@media screen and (max-width: 1590px) {
+    .mainBannerSection .innerSection {
+        min-height: 1080px;
+    }
+
+    .mainBannerSection .innerSection .bg-object {
+        left: 70px;
+        max-width: 150px;
+    }
+
+    .mainBannerSection .innerSection .titlePart h1 {
+        font-size: 120px;
+        max-width: 375px;
+    }
+
+    .mainBannerSection .innerSection .model_portrait {
+        transform: translateX(-65%);
+        max-width: 1280px;
+    }
+
+    .mainBannerSection .innerSection .rightContent .featuredProduct .productLink .imgContent {
+        max-width: 200px;
+    }
+
+    .mainBannerSection .innerSection .rightContent .featuredProduct .productLink .textContent h3 {
+        font-size: 30px;
+    }
+
+    .mainBannerSection .innerSection .rightContent .featuredProduct .productBase {
+        left: -80px;
+        width: 545px;
+        height: 210px;
+    }
+
+    .mainBannerSection .innerSection .rightContent .bottomPart .tagline {
+        font-size: 24px;
+    }
+
+    .productSliderSection .innerSection .contentPart .splide__track .splide__list .splide__slide .productLink .textContent h3 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .mainBannerSection .innerSection .titlePart h1 {
+        font-size: 100px;
+    }
+
+    .mainBannerSection .innerSection .model_portrait {
+        transform: translateX(-65%);
+        max-width: 1120px;
+    }
+
+    .mainBannerSection .innerSection .rightContent .featuredProduct .productBase {
+        left: -40px;
+    }
+
+    .productSliderSection {
+        padding: 100px 0;
+    }
+
+    .productSliderSection .innerSection .titlePart h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .mainBannerSection .innerSection {
+        flex-direction: column;
+        /* padding-bottom: 0; */
+    }
+
+    .mainBannerSection .innerSection .titlePart h1 {
+        max-width: none;
+        letter-spacing: -3px;
+        font-size: 80px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .mainBannerSection .innerSection .model_portrait {
+        position: static;
+        transform: translate(0, 0) scale(1.2);
+        pointer-events: all;
+    }
+
+    .mainBannerSection .innerSection .rightContent .featuredProduct .productBase {
+        left: 10px;
+        width: 100%;
+    }
+
+    .mainBannerSection .innerSection .rightContent .bottomPart {
+        margin-inline: auto;
+    }
+
+    .mainBannerSection .innerSection .rightContent .bottomPart .tagline {
+        line-height: normal;
+    }
+
+    .productSliderSection .innerSection .titlePart {
+        margin-bottom: 40px;
+    }
+
+    .productSliderSection .innerSection .contentPart .productSlider-progress {
+        margin-top: 40px;
+    }
+
+    .productSliderSection .innerSection .contentPart:not(.splide) .splide__list {
+        flex-wrap: wrap;
+    }
+
+    .productSliderSection .innerSection .contentPart:not(.splide) .splide__list .splide__slide {
+        max-width: 50%;
+    }
+
+    .productSliderSection .innerSection .contentPart .splide__track .splide__list .splide__slide .productLink {
+        padding: 50px 20px;
+    }
+
+    .productSliderSection .innerSection .contentPart .splide__track .splide__list .splide__slide .productLink .textContent {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mainHeader {
+        padding: 25px 0;
+    }
+
+    .mainHeader .innerHeader {
+        justify-content: space-between;
+    }
+
+    .mainHeader .innerHeader .site-branding {
+        max-width: 100px;
+    }
+
+    .mainHeader .innerHeader .main-navigation {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        transform: scaleY(0);
+        transform-origin: top;
+        min-height: 100vh;
+        border: none;
+        padding: 60px 20px;
+        background-color: var(--theme-secondary-color);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .mainHeader .innerHeader .main-navigation.toggled {
+        transform: scaleY(1);
+    }
+
+    .mainHeader .innerHeader .main-navigation .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .mainHeader .innerHeader .main-navigation .menu li a {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .mainHeader .innerHeader .userMenu ul li {
+        padding-inline: 20px;
+    }
+
+    .mainHeader .innerHeader .userMenu ul li.menuToggleCover {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainBannerSection .innerSection {
+        padding-top: 200px;
+    }
+
+    .mainBannerSection .innerSection .titlePart h1 {
+        font-size: 60px;
+    }
+
+    .mainBannerSection .innerSection .model_portrait {
+        transform: translateX(0) scale(1.4);
+    }
+
+    .mainBannerSection .innerSection .rightContent .bottomPart {
+        margin-top: 80px;
+        flex-direction: column;
+    }
+
+    .mainBannerSection .innerSection .rightContent .bottomPart .tagline {
+        max-width: none;
+        text-align: center;
+    }
+
+    .productSliderSection .innerSection .titlePart {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .productSliderSection .innerSection .titlePart h2 {
+        font-size: 30px;
+    }
+
+    .productSliderSection .innerSection .contentPart .splide__track .splide__list .splide__slide .productLink .textContent h3 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .productSliderSection .innerSection .contentPart:not(.splide) .splide__list .splide__slide {
+        max-width: 100%;
+    }
+
+    .mainFooter .footerTop {
+        flex-direction: column;
+    }
+}
